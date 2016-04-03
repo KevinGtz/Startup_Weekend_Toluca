@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Puppy Runners</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,37 +13,34 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Puppy Lovers</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+        <div class="col s12 m4">
+          <ul class="left hide-on-med-and-down">
+            <li><a href="#section1">About us</a></li>
+            <li><a href="#section2">Device</a></li>
+            <li><a href="#section3">Contact</a></li>
+          </ul>
+        </div>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+        <div class="col s12 m4">
+          <a id="logo-container" href="#" class="brand-logo center">Puppy Runners</a>
+        </div>
 
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Contacto</a></li>
-      </ul>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Sobre Nosotros</a></li>
-      </ul>
+        <div class="col s12 m4">
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Log in</a></li>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Login</a></li>
-      </ul>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Sign up</a></li>
-      </ul>
+            <li><a href="#">Sign up</a></li>
+          </ul>
+        </div>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#section1" du-smooth-scroll du-scrollspy class="io-navigation-item waves-effect">Device</a></li>
+          <li><a href="#section2 du-smooth-scroll du-scrollspy ng-click clas="io-navigation-item waves-effect">About us</a></li>
+          <li><a href="#section3">Contact</a></li>
+        </ul>
+
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
@@ -63,20 +60,19 @@
   </div>
 
 
-  <div class="container">
+  <div class="container" id="section1">
     <div class="section">
 
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m6">
-        
-        <div class="responsive-image">
-          <img src="pit.jpg" alt="Discover mockup">  
 
+        <div class="responsive-image">
+          <img src="pit.jpg" alt="Discover mockup">
           </div>
         </div>
 
-        
+
 
         <div class="col s12 m6">
           <div class="icon-block">
@@ -103,7 +99,7 @@
     <div class="parallax"><img src="pit.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <div class="container">
+  <div class="container" id="section2">
     <div class="section">
 
       <div class="row">
@@ -140,10 +136,10 @@
     <div class="parallax"><img src="dog.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+  <footer class="page-footer teal" id="section3">
     <div class="container">
       <div class="row">
-        
+
         <div>
           <h5 class="white-text">Puppy Runeners</h5>
           <!-- <p class="grey-text text-lighten-4"></p> -->
@@ -178,7 +174,7 @@
             <li><a class="white-text" href="#!"> Windows Phone</a></li>
           </ul>
         </div>
-        
+
 
       </div>
     </div>
@@ -197,3 +193,4 @@
 
   </body>
 </html>
+

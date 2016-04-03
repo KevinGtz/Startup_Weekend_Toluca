@@ -8,12 +8,13 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #727272;
 }
 
 p {
   line-height: 2rem;
 }
+
 
 .button-collapse {
   color: #26a69a;
